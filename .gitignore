@@ -1,34 +1,31 @@
-# Gradle files
-.gradle/
-build/
+# Jangan pernah commit data insiden atau bukti
+evidence/
+artifacts/
+samples/
+*.pcap
+*.evtx
+*.mem
+*.dmp
+*.eml
+*.msg
 
-# Local configuration file (sdk path, etc)
-local.properties
+# Kredensial dan konfigurasi lokal
+.env
+*.key
+*.pem
+*.p12
+secrets/
+contacts-internal.md
 
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
-
-# IntelliJ
-*.iml
+# Berkas sementara editor & OS
+.DS_Store
+Thumbs.db
+*.swp
+*~
 .idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+.vscode/
 
-# Keystore files
-*.jks
-*.keystore
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+# Output build dokumentasi
+site/
+_build/
+*.pdf.tmp
